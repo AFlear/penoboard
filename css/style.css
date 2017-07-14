@@ -1,0 +1,1669 @@
+#map{
+  width:100%;
+  height:330px;
+
+}
+
+
+html{
+	font-family: Arial;
+}
+
+header {
+position: fixed;
+    z-index: 20;
+	    width: 100%;
+	height: 76px;
+	background: url(../image/head.jpg) repeat-x;}
+
+header .navbar-nav>li>a{
+	
+	font-weight: normal;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+header .navbar {
+    margin: 12px 0;
+}
+
+header .nav>li>a:focus, header .nav>li>a:hover{
+	background-color:  rgba(238, 238, 238, 0);
+	    margin: 10px 15px;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    padding: 3px 0;
+}
+
+
+header .nav .open>a, 
+header .nav .open>a:focus, 
+header .nav .open>a:hover{
+background-color: rgba(238, 238, 238, 0);
+    border-color: 0;
+}
+
+header {
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(115,115,115,0.44);
+-moz-box-shadow: 0px 7px 10px 0px rgba(115,115,115,0.44);
+box-shadow: 0px 7px 10px 0px rgba(115,115,115,0.44);
+}
+
+.fluid_banner .carousel-indicators li{
+	display: inline-block;
+    width: 32px;
+    height: 3px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0px;
+}
+
+
+.fluid_banner{
+	    padding-top: 93px;
+	width: 100%;
+	background: url(../image/banner.jpg) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+
+
+.fluid_banner .carousel-indicators {
+    position: absolute;
+    bottom: 5px;
+    left: 11.5%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+
+.block_uspeh-title h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#carousel-example-generic {
+    margin: 5px 0 88px;
+}
+
+#carousel-example-generic {
+    box-shadow: 0px 60px 100px -25px #182c46;
+    -webkit-box-shadow: 0px 60px 100px -25px #182c46;
+     -moz-box-shadow:0px 60px 100px -25px #182c46;
+}
+
+
+#carousel-example-generic:before {
+    z-index: 0;
+    position: absolute;
+    content: "";
+    bottom: -2px;
+    left: 18%;
+    width: 63%;
+    top: 93%;
+   box-shadow: 0px 15px 80px 15px #182c46;
+    background: #182c46;
+    -webkit-box-shadow: 0px 15px 80px 15px #182c46;
+}
+
+
+.block_uspeh-title{
+	margin-top: 6%;
+}
+
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+	border-color: #fff; 
+}
+
+
+/*select style*/
+
+
+/* The CSS */
+.fluid_banner select  {
+	    vertical-align: -webkit-baseline-middle;
+	font-size: 12px;
+	font-weight: bold;
+    color:#2c2783;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .fluid_banner select {padding-left: 15px}
+}
+ label {position:relative}
+.fluid_banner .block_info label:before{
+
+    content:"\25bc";
+    font:11px "Consolas", monospace;
+    color:#2c2783;
+
+    right:22px;     
+    top: 6px;
+    padding:0 0 2px;
+    position:absolute;
+    pointer-events:none;
+}
+
+
+/* end select style*/
+
+.info-lang{
+	width: 20%;
+	float: left;
+}
+
+.block_social {
+    padding: 5px;
+}
+.col-offset-1 {
+    margin-left: 4.333333%;
+}
+
+.block_social span{
+
+	    vertical-align: -webkit-baseline-middle;
+	margin: 0 14px 0 66px; 
+	float: left;
+	color: #01983b;
+	text-transform: uppercase;
+	font-family: Arial;
+}
+
+
+.block_contacts p{
+	color: #2c2783;
+	font-size: 16px;
+	font-weight: bold;
+	margin:0;
+}
+
+.fluid_banner	 .carousel-caption {
+    left:  0;
+    padding: 5px 25px 0;
+    margin-bottom:  2%;
+
+
+}
+.fluid_banner	 .carousel-caption {
+	background-color: rgba(1, 152, 59, 0.36);
+}
+
+.carousel-caption h2{
+     font-family: 'EuropeExt Normal', arial;
+	text-align: left;
+	text-transform: uppercase;
+     
+}
+
+.carousel-caption h2:nth-child(2){
+    margin: -15px 0 0 25%;
+    text-align: center;
+     
+}
+.carousel-caption h3{
+	font-family: 'EuropeExt Bold', arial;
+	text-align: left;
+	text-transform: uppercase;
+    margin: 5px 0 16px;
+}
+/*modal login */
+
+
+
+.block_login a {
+  text-decoration: none;
+  color: #01983b;;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.block_login a:hover {
+  color: #01983b;
+}
+
+.block_login .form {
+	display: none;
+  position: fixed;
+  z-index: 999;
+  left: 36%;
+  top: 15%;
+  background: rgb(255, 255, 255);;
+  padding: 30px 70px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+ul.tab-group {
+    padding: 5px 0 0;
+    margin-top: 21px;
+}
+
+#forms .close {
+    float: right;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 0;
+    color: #2c2783;
+    text-shadow: none;
+    filter: alpha(opacity=20);
+    opacity: 1;
+}
+
+#forms .tab-group li{
+	list-style: none;
+}
+
+.block_login  .block_login  .tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+.block_login  .tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.block_login  .tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #a0b3b0;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.block_login  .tab-group li a:hover {
+  background: #01983b;
+  color: #ffffff;
+}
+.block_login  .tab-group .active a {
+  background: #01983b;
+  color: #ffffff;
+}
+
+.block_login  .tab-content > div:last-child {
+  display: none;
+}
+
+.block_login  h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+.block_login  label {
+  position: absolute;
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
+  left: 13px;
+  color: #2c2783;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  font-size: 22px;
+}
+.block_login  label .req {
+  margin: 2px;
+  color: #1ab188;
+}
+
+.block_login label.active {
+  display: none;
+}
+.block_login label.active .req {
+  opacity: 0;
+}
+
+.block_login  label.highlight {
+  color: #ffffff;
+}
+
+.block_login  input, .block_login  textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #2c2783;
+  border-radius: 0;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+.block_login  input:focus, .block_login  textarea:focus {
+  outline: 0;
+  border-color: #1ab188;
+}
+
+.block_login  textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+
+.block_login  .field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.block_login  .top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.block_login  .top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.block_login  .top-row > div:last-child {
+  margin: 0;
+}
+
+.block_login  .button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.block_login  .button:hover, .button:focus {
+  background: #01983b;
+}
+
+.block_login  .button-block {
+  display: block;
+  width: 100%;
+      background: #01983b;
+}
+
+.block_login  .forgot {
+  margin-top: -20px;
+  text-align: right;
+}
+/*end mpdal login*/
+
+
+.block_login-singin button{
+	
+    float: right;
+    border: 0;
+    background: 0;
+    color: #01983b;
+}
+
+.block_login-singin button p{
+	float: left;
+	padding: 3px;
+}
+
+
+/*.block_otv{
+	margin-top: 50px;
+}*/
+.block_otv h1{
+	color: #01983b;
+	font-family: 'EuropeExt Bold', arial;
+	font-size: 41px;
+}
+
+.block_otv span{
+color: #2c2783;
+font-family: 'EuropeExt Bold', arial;
+}
+
+
+.block_otv h2{
+	color: #2c2783;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+}
+.block_otv h3{
+	color: #2c2783;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.block_otv label{position:relative}
+.block_otv label:before{
+
+    content: "";
+    font: 11px "Consolas", monospace;
+    color: #2c2783;
+    background: url(../image/logo-icon.png) 100% 100% no-repeat;
+    right: 102%;
+    top: -19px;
+    height: 100%;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+}
+
+.block_otv label:after{
+    content: "";
+    font: 11px "Consolas", monospace;
+    color: #2c2783;
+    background: url(../image/tm.png) 100% 100% no-repeat;
+    right: -7%;
+    top: -43px;
+    height: 100%;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+}
+
+.block_otv a {text-decoration: none;}
+ .fancybox img {
+	margin-bottom: 4px;
+
+}
+
+/*
+.content_uspeh #tp25{
+	font-size: 72px;
+	font-weight: bold;
+} 
+
+
+.content_uspeh #nr7{
+	font-size: 163px;
+	font-weight: bold;
+} 
+
+.content_uspeh #gop{
+	font-size: 72px;
+	font-weight: bold;
+} 
+*/
+
+
+.block_uspeh-title{
+  font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*#test{
+  color: #fff;
+}
+*/
+.ecllipse h2{
+      margin: 10% 0 0;
+      text-transform: uppercase;
+}
+#tp25 {
+    position: relative;
+    font-size: 72px;
+    left: 28%;
+}
+
+#nr7 {
+    float: right;
+    font-size: 81.63px;
+}
+
+.block_otv {
+    text-align: center;
+}
+
+.gop-block h2{
+   text-transform: uppercase;
+
+   }
+.gop-block p{
+       font-size: 72px;
+    position: relative;
+    left: 31%;
+    margin: -20px 0 0;}
+
+.block_logo-cer img {
+    width: 160px;
+}
+.block_logo-cer{
+	margin: 0 0 40px;
+}
+
+.fancybox-image, .fancybox-spaceball{
+    z-index: 2;
+}
+.content_contacts{
+      margin: auto;
+  background: url(../image/ban_contact.png) center ;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.content_contacts h2{
+  margin-top: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.content_contacts .text-info{
+  font-weight: normal;
+  font-size: 18px;
+    color: #fff;
+}
+
+.content_contacts p{
+  font-weight: normal;
+  font-size: 14px;
+    color: #fff;
+}
+
+.content_contacts label:after{
+    z-index: 10;
+    content: "";
+    font: 11px "Consolas", monospace;
+    color: #2c2783;
+    background: url(../image/ban_contact_down.png) no-repeat;
+    background-size: 100%;
+    right: 0;
+        top: 232.59px;
+    height: 100%;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+}
+
+.maps{
+  padding:0;
+}
+
+
+
+
+footer{
+  text-align: center;
+padding: 5% 0 10px;
+    background: url(../image/ban_footer.png) center ;
+  background-size: 100% 100%;
+}
+
+footer span:before{
+
+    content: "";
+    font: 11px "Consolas", monospace;
+    color: #2c2783;
+    background: url(../image/log-vec1.png) 100% 100% no-repeat;
+      right: 46%;
+    top: -112%;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+footer span:after{
+    content: "";
+    font: 11px "Consolas", monospace;
+    color: #2c2783;
+    background: url(../image/log-vec2.png) 100% 100% no-repeat;
+    right: 46%;
+    top: -94%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+}
+
+
+.block_logo img {
+    width: 100%;
+    height: auto;
+}
+
+footer .logo-white{
+  margin: 5px 0;
+}
+footer p{
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.footer_down img{
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.footer_down p{
+  text-transform: uppercase;
+}
+
+.footer_down a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.relative{
+    position: relative;
+}
+.elips1, .elips2, .elips3{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.elips1 span, .elips2 span, .elips3 span{
+  text-transform: none;
+  font-weight: bold;
+}
+.elips1 span, .elips3 span{
+    font-size: 72px;
+}
+.elips2 span{
+    font-size: 160px;
+    white-space: nowrap;
+}
+.elips1{
+    position: absolute;
+    top: 75px;
+    left: -52px;
+}
+.elips2{
+    position: absolute;
+   top: 4px;
+    left: -122px;
+    white-space: nowrap;
+}
+.elips3{
+   top: 79px;
+    left: -169px;
+
+}
+.elips3 span{
+    position: absolute;
+    left: 223px;
+    white-space: nowrap;
+}
+.elips1 span{
+    position: absolute;
+    left: 169px;
+    white-space: nowrap;
+}
+.let {
+    font-size: 81px;
+    margin-left: -50px;
+}
+.third {
+      top: -170px;
+    left: 195px;
+    z-index: 11;
+}
+
+.elips3 {
+    position: absolute;
+/*    top: -46px;
+    left: 72px;*/
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.first {
+    position: relative;
+    top: -45px;
+    left: -47px;
+    z-index: 10;
+}
+.title {
+    z-index: 11;
+}
+
+.second {
+    position: relative;
+    top: -50px;
+    left: 43px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+      background-color: #fff;
+}
+
+  .block_info .input-medium{
+  border: none;
+  border-bottom: 1px solid #bfbdd9; 
+}
+
+.block_info form.form-search {
+    margin-top: 1%;
+}
+
+
+@media (min-width: 320px) and (max-width: 389px){
+  #carousel-example-generic:before {
+   -webkit-box-shadow:0px -8px 40px 15px #182c46;
+   box-shadow:0px -8px 40px 15px #182c46;}
+
+
+#carousel-example-generic {
+    box-shadow: 0px 72px 47px -54px #182c46;
+    -webkit-box-shadow: 0px 72px 47px -54px #182c46;}
+       .block_info .input-medium {
+    width: 72%;
+        background: rgba(0, 0, 0, 0);
+  }
+  .block_login .field-wrap {
+    position: relative;
+    margin-bottom: 18px;
+}
+.block_login  .button{
+    font-size: 1.2rem;
+  }
+  .block_login .form {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0%;
+    top: 15%;
+    background: rgb(255, 255, 255);
+    padding: 20px 25px;
+    max-width: 320px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.block_login .tab-group li a {
+    padding: 7px;
+    font-size: 14px;
+  }
+  .block_login label {
+    left: 14px;
+    font-size: 17px;
+}
+  .fluid_banner .carousel-indicators li{
+    width: 11px;
+  }
+  .block_info {
+    margin-left: 18%;
+}
+  .block_otv label:before{
+        right: 105%;
+    top: -14px;
+  }
+  .block_otv label:after{
+        right: -21%;
+    top: -40px;
+  }
+  .content_uspeh{
+    display: none;
+  }
+
+ .footer_down img{
+    width: 100%;
+  }
+  .content_contacts{
+    margin:0;
+  }
+  .block_otv h1 {
+      font-size: 25px;
+    margin-top: 30px;
+}
+.block_otv h2{
+  font-size: 22px;
+}
+.block_otv h3{
+  font-size: 18px;
+}
+  .fluid_banner select{
+    font-size: 10px;
+  }
+  .fluid_banner label:before{
+    right: 15px;
+        top: 7px;
+  }
+
+    .carousel-caption h3{
+        font-size: 8px;
+  }
+
+  .carousel-caption h2{
+       font-size: 11px;
+    line-height: 1.7;
+    margin-top: 5px;
+  }
+.block_contacts p {
+    font-size: 12px;
+}
+  .fancybox img {
+    width: 41%;
+    margin-bottom: 4px;
+}
+    .fluid_banner select {
+    padding-left: 7px;
+}
+.info-lang {
+    width: 9%;
+    float: left;
+}
+.block_social span{
+     margin: 3px 8px;
+    font-size: 10px;
+}
+  .col-offset-1 {
+  margin-left: 0;
+}
+  .content_contacts label:after{
+        top: 196.59px;
+  }
+    .content_uspeh {
+    background: url(../image/ban_uspeh.jpg) no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 222px;
+    color: #fff;
+    }
+    .block_uspeh-title h1{
+      font-size: 19px;
+    }
+    .block_uspeh-ellipse{
+      display: none;
+    }
+    .block_uspeh-title {
+    margin-top: 0%;
+}
+.fluid_banner .carousel-indicators{
+  left: 20%;
+}
+.carousel-caption h2:nth-child(2) {
+    margin: -15px 0 0 0%;
+    text-align: center;
+}
+  header .navbar-default{
+        background-color: rgba(248, 248, 248, 0);
+        border-color: rgba(248, 248, 248, 0);
+        background-image: none;
+        box-shadow: none;
+  }
+   header .navbar-collapse {
+    background-color: #04983d;
+}
+  header {
+    width: 100%;
+    height: auto;
+  }
+
+.lelips1, .lelips2, .lelips3{
+    font-size: 16px;
+    color: #fff;
+}
+.lelips1 span, .lelips3 span{
+    font-size: 17px;
+}
+.lelips2 span{
+    font-size: 37px;
+    white-space: nowrap;
+}
+.lelips1{
+    position: absolute;
+      top: -8px;
+    left: 29px;
+}
+.lelips2{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    white-space: nowrap;
+}
+.lsecond label {
+      font-size: 22px;
+    margin: 0px 0 0 -16px;
+}
+.lelips3{
+    position: absolute;
+      top: 44px;
+    left: 147px;
+}
+.lelips3 span{
+    position: absolute;
+    left: 95px;
+    white-space: nowrap;
+}
+.lelips1 span{
+    position: absolute;
+    left: 115px;
+    white-space: nowrap;
+}
+footer {
+      padding: 2% 0 10px;
+}
+.block_otv{
+  margin-top: 25px;
+}
+.content_contacts .text-info{
+  font-size: 14px;
+}
+#carousel-example-generic {
+        margin: 36px 0 28px;
+}
+.content_contacts p {
+    font-weight: normal;
+    font-size: 12px;
+    color: #fff;
+}
+footer span:before, footer span:after{
+  width: 0;
+  height: 0;
+}
+footer .logo-white{
+  width: 100%;
+}
+
+}
+
+@media (min-width: 390px) and (max-width: 557px){
+
+  #carousel-example-generic {
+    margin: 75px 0 55px;
+}
+  .block_info {
+    margin-left: 16%;
+}
+  .footer_down img{
+    width: 100%;
+  }
+  .content_contacts{
+    margin:0;
+  }
+  .block_otv h1 {
+    font-size: 33px;
+    margin-top: 1px;
+}
+.block_otv h2{
+  font-size: 22px;
+}
+.block_otv h3{
+  font-size: 18px;
+}
+  .fluid_banner select{
+    font-size: 10px;
+  }
+  .fluid_banner label:before{
+    right: 15px;
+        top: 7px;
+  }
+
+   .carousel-caption h3{
+        font-size: 10px;
+  }
+
+  .carousel-caption h2{
+    font-size: 16px;
+  }
+.block_contacts p {
+    font-size: 12px;
+}
+  .fancybox img {
+    width: 41%;
+    margin-bottom: 4px;
+}
+    .fluid_banner select {
+    padding-left: 7px;
+}
+.info-lang {
+    width: 9%;
+    float: left;
+}
+.block_social span{
+      margin: 3px 10px;
+    font-size: 13px;
+}
+  .col-offset-1 {
+  margin-left: 0;
+}
+  .content_contacts label:after{
+        top: 196.59px;
+  }
+    .content_uspeh {
+    background: url(../image/ban_uspeh.jpg) no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 180px;
+    color: #fff;
+    }
+    .block_uspeh-title h1{
+      font-size: 19px;
+    }
+    .block_uspeh-ellipse{
+      display: none;
+    }
+    .block_uspeh-title {
+    margin-top: 0%;
+}
+.fluid_banner .carousel-indicators{
+  left: 19%;
+}
+.carousel-caption h2:nth-child(2) {
+    margin: -15px 0 0 0%;
+    text-align: center;
+}
+  header .navbar-default{
+        background-color: rgba(248, 248, 248, 0);
+        border-color: rgba(248, 248, 248, 0);
+        background-image: none;
+        box-shadow: none;
+  }
+   header .navbar-collapse {
+    background-color: #04983d;
+}
+  header {
+    width: 100%;
+    height: auto;
+  }
+
+.lelips1, .lelips2, .lelips3{
+    font-size: 11px;
+    color: #fff;
+}
+.lelips1 span, .lelips3 span{
+    font-size: 13px;
+}
+.lelips2 span{
+    font-size: 22px;
+    white-space: nowrap;
+}
+.lelips1{
+    position: absolute;
+      top: -8px;
+    left: 29px;
+}
+.lelips2{
+    position: absolute;
+    top: -16px;
+    left: 0;
+    white-space: nowrap;
+}
+.lsecond label {
+      font-size: 16px;
+    margin: 0px 0 0 -5px;
+}
+.lelips3{
+    position: absolute;
+   top: 27px;
+    left: 116px;
+
+}
+.lelips3 span{
+    position: absolute;
+    left: 76px;
+    white-space: nowrap;
+}
+.lelips1 span{
+    position: absolute;
+    left: 83px;
+    white-space: nowrap;
+}
+footer {
+      padding: 12% 0 10px;
+}
+.block_otv{
+  margin-top: 0;
+}
+.content_contacts .text-info{
+  font-size: 16px;
+}
+
+}
+
+@media (min-width: 558px) and (max-width: 669px){
+  .block_info {
+    padding: 0 15%;
+}
+.block_contacts p{
+  font-size: 18px;
+}
+
+     .block_login .form { margin: 40px -150px;}
+
+  .carousel-caption h3{
+        font-size: 16px;
+  }
+  .carousel-caption h2{
+    font-size: 25px;
+  }
+  .block_contacts p{
+    font-size: 14px;
+  }
+  .fancybox img {
+    width: 17%;
+    margin-bottom: 4px;
+}
+    .fluid_banner select {
+    padding-left: 7px;
+}
+.info-lang {
+    width: 9%;
+    float: left;
+}
+.block_social span{
+      margin: 3px 5px;
+    font-size: 16px;
+}
+  .col-offset-1 {
+  margin-left: 0;
+}
+  .content_contacts label:after{
+        top: 197.59px;
+  }
+    .content_uspeh {
+    background: url(../image/ban_uspeh.jpg) no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 222px;
+    color: #fff;
+    }
+    .block_uspeh-title h1{
+      font-size: 21px;
+    }
+    .block_uspeh-ellipse{
+      display: none;
+    }
+    .block_uspeh-title {
+    margin-top: 0%;
+}
+.fluid_banner .carousel-indicators{
+  left: 19%;
+}
+.carousel-caption h2:nth-child(2) {
+    margin: -15px 0 0 0%;
+    text-align: center;
+}
+  header .navbar-default{
+        background-color: rgba(248, 248, 248, 0);
+        border-color: rgba(248, 248, 248, 0);
+        background-image: none;
+        box-shadow: none;
+  }
+   header .navbar-collapse {
+    background-color: #04983d;
+}
+  header {
+    width: 100%;
+    height: auto;
+  }
+
+.lelips1, .lelips2, .lelips3{
+    font-size: 16px;
+    color: #fff;
+}
+.lelips1 span, .lelips3 span{
+    font-size: 23px;
+}
+.lelips2 span{
+    font-size: 50px;
+    white-space: nowrap;
+}
+.lelips1{
+    position: absolute;
+        top: 6px;
+    left: 90px;
+}
+.lelips2{
+    position: absolute;
+    top: -20px;
+    left: 14px;
+    white-space: nowrap;
+}
+.lsecond label {
+      font-size: 28px;
+    margin: 0px 0 0 -16px;
+}
+.lelips3{
+    position: absolute;
+      top: 65px;
+    left: 199px;
+}
+.lelips3 span{
+    position: absolute;
+        left: 123px;
+    white-space: nowrap;
+}
+.lelips1 span{
+    position: absolute;
+    left: 115px;
+    white-space: nowrap;
+}
+footer {
+      padding: 8% 0 10px;
+}
+.block_otv{
+  margin-top: 0;
+}
+.content_contacts .text-info{
+  font-size: 16px;
+}
+
+}
+
+
+
+@media (min-width: 670px) and (max-width: 767px){
+     .block_info .input-medium {
+    width: 88%;
+  }
+.block_info {
+    padding: 0 15%;
+}
+.block_contacts p{
+  font-size: 18px;
+}
+      .block_login .form { margin: 40px -125px;}
+  .fluid_banner select {
+    padding-left: 7px;
+}
+.info-lang {
+    width: 9%;
+    float: left;
+}
+.block_social span{
+      margin: 0px 5px;
+    font-size: 15px;
+}
+  .col-offset-1 {
+  margin-left: 0;
+}
+  .content_contacts label:after{
+        top: 202.59px;
+  }
+    .content_uspeh {
+    background: url(../image/ban_uspeh.jpg) no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 222px;
+    color: #fff;
+    }
+    .block_uspeh-title h1{
+      font-size: 21px;
+    }
+    .block_uspeh-ellipse{
+      display: none;
+    }
+    .block_uspeh-title {
+    margin-top: 0%;
+}
+.fluid_banner .carousel-indicators{
+  left: 16%;
+}
+.carousel-caption h2:nth-child(2) {
+    margin: -15px 0 0 0%;
+    text-align: center;
+}
+  header .navbar-default{
+        background-color: rgba(248, 248, 248, 0);
+        border-color: rgba(248, 248, 248, 0);
+        background-image: none;
+        box-shadow: none;
+  }
+   header .navbar-collapse {
+    background-color: #04983d;
+}
+  header {
+    width: 100%;
+    height: auto;
+  }
+
+
+.lelips1, .lelips2, .lelips3{
+    font-size: 18px;
+    color: #fff;
+}
+.lelips1 span, .lelips3 span{
+    font-size: 30px;
+}
+.lelips2 span{
+    font-size: 60px;
+    white-space: nowrap;
+}
+.lelips1{
+    position: absolute;
+        top: 6px;
+    left: 125px;
+}
+.lelips2{
+    position: absolute;
+    top: -20px;
+    left: 14px;
+    white-space: nowrap;
+}
+.lsecond label {
+      font-size: 37px;
+    margin: 0 0 0 -18px;
+}
+.lelips3{
+    position: absolute;
+        top: 80px;
+    left: 257px;
+}
+.lelips3 span{
+    position: absolute;
+        left: 123px;
+    white-space: nowrap;
+}
+.lelips1 span{
+    position: absolute;
+    left: 115px;
+    white-space: nowrap;
+}
+footer {
+      padding: 8% 0 10px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .block_otv {
+    margin-top: 45px;} 
+  .fancybox img {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+   .block_info .input-medium {
+    width: 88%;
+  }
+       .block_login .form { margin: 40px -125px;}
+  .block_uspeh-ellipse-little{
+    display: none;
+  }
+  .fluid_banner .carousel-indicators{
+    left: 16.5%;
+  }
+  .second label {
+    font-size: 58px;
+}
+.elips2 {
+    position: absolute;
+    top: -11px;
+    left: -94px;
+  }
+      .content_uspeh {
+    background: url(../image/Ellips_bg.png) no-repeat;
+    background-size: 100% 450px;
+    width: 100%;
+    color: #fff;
+    }
+    .first {
+    position: relative;
+    top: -45px;
+    left: 25px;
+  }
+    .first img{
+      width: 60%;
+    }
+    .elips1 {
+    position: absolute;
+    top: 55px;
+    left: -25px;
+}
+.elips1, .elips2, .elips3 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.second{
+      left: 130px;
+          top: -22px;
+}
+.second img{
+  width: 70%;
+}
+.elips2 span {
+    font-size: 130px;
+  }
+.elips1 span {
+    left: 112px;
+}
+.elips1 span, .elips3 span {
+    font-size: 50px;
+}
+.elips3 {
+    top: 45px;}
+
+  .third img{
+    width: 45%;
+
+  }
+  .third {
+        top: -65px;
+    left: -80px;
+    z-index: 11;
+}
+.block_uspeh-title h1{
+  font-size: 32px;
+  }
+
+  header .menu-pad {
+    position: relative;
+    left: 0;
+    padding: 0;
+}
+
+ header .navbar-collapse.collapse{
+  padding: 0 5px;
+}
+header .navbar-nav>li>a{
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.col-offset-1{
+  margin-left: 0;
+}
+.block_info {
+    margin-left: 12%;
+}
+.block_social span{
+  margin: 0 14px 0 0;
+}
+.info-lang {
+    width: 14%;}
+    .block_contacts {
+    padding-left: 8px;
+}
+.block_contacts p {
+    font-size: 11px;
+  }
+  .carousel-caption h2:nth-child(2) {
+    margin: -15px 0 0 0;}
+    .fancybox img {
+    width: 14%;
+}
+.content_contacts label:after{
+      top: 203.59px;
+}
+footer{
+  padding: 7% 0 10px; 
+}
+
+}
+
+@media (min-width: 1200px){
+  .block_otv {
+    margin-top: 25px;}      
+  .fancybox img {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+    .content_contacts label:after {
+    width: 107.310%;
+    right: -39px;
+ }
+  .block_info .input-medium {
+    width: 82%;
+  }
+.block_uspeh-ellipse-little{
+  display: none;
+}
+
+    .second label{
+  font-size: 81px;
+}
+  .menu-pad {
+    padding: 0 0 0 97px;
+    }
+    .navbar-collapse{
+      padding-right: 0;
+      padding-left: 0;
+      }
+    .block_login-singin {
+      margin-right: 51px;
+    }
+    .content_uspeh {
+    background: url(../image/Ellips_bg.png) no-repeat;
+    background-size: 100% 600px;
+    width: 100%;
+    color: #fff;
+}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+   .block_info .input-medium {
+    width: 80%;
+  }
+  .block_uspeh-ellipse-little{
+    display: none;
+  }
+  .content_uspeh {
+    background: url(../image/Ellips_bg.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    color: #fff;
+  }
+  .col-md-11.menu-pad{
+    width: 100%;
+  }
+ .nav>li>a{
+    padding: 10px; 
+  }
+  .carousel-caption h2:nth-child(2){
+        margin: -15px 0 0 10%;
+  }
+  .carousel-caption h3 {
+    font-size: 20px;
+}
+  .block_uspeh-title h1{
+    font-size: 38px;
+  }
+  .first {
+    top: -38px;
+}
+  .first img{
+    width: 59%;
+  }
+  .elips1 {
+    position: absolute;
+    top: 60px;
+    left: -77px;
+  }
+  .elips1 span{
+    left: 150px;
+  }
+
+  .elips1 span, .elips3 span {
+    font-size: 62px;
+  }
+  .third img{
+    width: 55%;
+  }
+  .third{
+    top: -81px;
+  }
+  .elips3 {
+    top: 35px;
+    left: -201px;
+  }
+
+ /* .elips1, .elips2, .elips3{
+    font-size: 27px;
+  }*/
+  .second img{
+    width: 65%;
+  }
+  .elips2{
+top: -5px;
+left: -152px;
+  }
+  .elips2 span{
+    font-size: 145px;
+  }
+
+  .info-lang {
+    width: 5%;
+    float: left;
+}
+  .second label{
+  font-size: 81px;
+}
+
+}
+
+
+
+
+
+@media (min-width: 1500px){
+  .content_contacts label:after {
+    width: 107.5%;
+    right: -40px;
+ }
+  .block_info .input-medium {
+    width: 82%;
+  }
+  .content_uspeh {
+    background: url(../image/Ellips_bg.png) no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    color: #fff;
+  }
+  .block_uspeh-ellipse-little{
+    display: none;
+  }
+  .fancybox img {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.block_otv {
+    margin-top: 25px;}      
+}
